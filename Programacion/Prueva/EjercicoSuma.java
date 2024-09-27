@@ -1,3 +1,5 @@
+package Prueva;
+
 import java.util.Scanner;
 
 public class EjercicoSuma {

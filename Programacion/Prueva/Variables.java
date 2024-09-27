@@ -1,3 +1,5 @@
+package Prueva;
+
 import java.util.Arrays;
 
 public class Variables {

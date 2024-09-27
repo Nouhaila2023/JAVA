@@ -1,3 +1,5 @@
+package Ejercicios_Practicos.src;
+
 import java.util.Scanner;
 
 public class prueva {

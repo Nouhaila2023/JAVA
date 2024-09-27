@@ -1,4 +1,4 @@
-
+package Prueva;
 //Crea un programa que pede por teclado el precio de un producto.
 //Pide tambian la cantidad de ese prodocto que un compra.
 //Develve el precio final con con el iva 21%

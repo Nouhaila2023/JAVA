@@ -1,3 +1,5 @@
+package Prueva;
+
 import java.util.Scanner;
 //Ejercicio de clase
 //crea un programa que pida por teclado tu nombre y tus apellidos por separado
