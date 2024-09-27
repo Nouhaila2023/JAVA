@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Tema1.Ejercicio1;
 
 //Ejercicio 6
 //Realiza un programa que reciba una cantidad de minutos y

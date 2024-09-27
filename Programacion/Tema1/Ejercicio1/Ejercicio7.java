@@ -1,4 +1,4 @@
-package Ejercicio1;
+package Tema1.Ejercicio1;
 
 //Ejercicio 7
 //Una tienda ofrece un descuento del 15% sobre
