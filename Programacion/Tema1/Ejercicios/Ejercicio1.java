@@ -1,4 +1,8 @@
 package Tema1.Ejercicios;
+//Números enteros (como -3, 0, 7)
+//Números decimales (como 3.14, -1.5),
+//Números fraccionarios (como 1 3la 2 {1/2]),
+//Y números irracionales (como 𝜋 y jadr2).
 
 public class Ejercicio1 {
 
