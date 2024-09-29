@@ -1,5 +1,7 @@
 package Tema1.Ejercicios;
 
+import java.util.Random;
+
 public class Ejercicio17 {
 
     public static int numero_aleatorio(int min , int max){
@@ -60,20 +62,31 @@ public class Ejercicio17 {
 
         //f. Generar un número aleatorio que sea uno de los siguientes: 5, 7, 33, 125 o 77
 
-        int numero_f = numero_aleatorio(5,125);
+        //int numero_f = numero_aleatorio(5,125);
+        //if (numero_f == 5 || numero_f == 125 || numero_f == 33 || numero_f == 7 || numero_f == 77) {
+        //System.out.println("f. " + numero_f);
 
-        if (numero_f == 5 || numero_f == 125 || numero_f == 33 || numero_f == 7) {
+        int[] numero_f = {5,7,33,125,77};
 
+        Random random = new Random();
 
+        // Generar un índice aleatorio dentro del rango de 0 a 4 (el tamaño del array - 1)
+        int indiceAleatorio = random.nextInt(numero_f.length);
 
-            System.out.println("f. " + numero_f);
-        }
+        // Seleccionar el número correspondiente
+        int numeros = numero_f[indiceAleatorio];
+
+        // Imprimir el número generado
+        System.out.println("f. " + numeros);
 
 
         //g. Crea un generador aleatorio de uno de los meses del año
 
 
+        String[] mesesDELano = {"Enero" , "febrero" , "marso" , "abril" , "mayo" , "junio" , "julio" , "agosto" , "septiembre" , "octubre" ,"novombre" , "desembre"};
 
+        String mesAleatorio = mesesDELano[random.nextInt(mesesDELano.length)];
 
+        System.out.println(mesAleatorio);
     }
 }

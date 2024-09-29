@@ -1,6 +1,8 @@
+package Prueva;
+
 import java.util.Scanner;
 
-public class CircunferenciaRadio {
+public class CircunferenciaRadio1 {
     public static  void  main (String[] args){
 
         int radio = 9;

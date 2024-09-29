@@ -1,4 +1,4 @@
-package Ejercicios_Practicos.src;
+package Prueva;
 
 import java.util.Scanner;
 
