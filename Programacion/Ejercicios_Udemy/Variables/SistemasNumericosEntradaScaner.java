@@ -1,6 +1,5 @@
-package Ejercicios_Udemy;
+package Ejercicios_Udemy.Variables;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class SistemasNumericosEntradaScaner {

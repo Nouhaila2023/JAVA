@@ -1,4 +1,4 @@
-package Ejercicios_Udemy;
+package Ejercicios_Udemy.Variables;
 
 public class PrimitvosEnteros {
     public static void main(String[] args) {
