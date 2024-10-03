@@ -52,7 +52,7 @@ public class NotaFinal {
 
         notaFinal = trabajoFinal + examenFinal + examenClase;
 
-        System.out.println("La nota final es: " + notaFinal);
+        System.out.println("La nota final es: " + String.format("%.2f",notaFinal));
 
     }
 }

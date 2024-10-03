@@ -23,8 +23,12 @@ public class Ejercicio6 {
         calculadoraMinuto = minuto/60;
         resto = minuto-(calculadoraMinuto*60);
 
+        //Otra manera para el menotos
+        int resta1 = calculadoraMinuto % 60;
+
         System.out.println(calculadoraMinuto + "h " + resto + "min");
 
+        System.out.println(resta1);
 
     }
 }
