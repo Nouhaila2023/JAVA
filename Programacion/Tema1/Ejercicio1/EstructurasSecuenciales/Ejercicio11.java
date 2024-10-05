@@ -1,4 +1,4 @@
-package Tema1.Ejercicio1;
+package Tema1.Ejercicio1.EstructurasSecuenciales;
 
 public class Ejercicio11 {
     public static void main(String[] args) {

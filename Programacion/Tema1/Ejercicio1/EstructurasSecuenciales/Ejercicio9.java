@@ -1,4 +1,4 @@
-package Tema1.Ejercicio1;
+package Tema1.Ejercicio1.EstructurasSecuenciales;
 
 /*
 * Pide al usuario dos pares de números (x1,y1) y (x2,y2),

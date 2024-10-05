@@ -1,4 +1,4 @@
-package Tema1.Ejercicio1;
+package Tema1.Ejercicio1.EstructurasSecuenciales;
 //luis Miguel Lopez
 
 //Ejercicio 2

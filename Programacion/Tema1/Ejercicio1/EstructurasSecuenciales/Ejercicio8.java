@@ -1,4 +1,4 @@
-package Tema1.Ejercicio1;
+package Tema1.Ejercicio1.EstructurasSecuenciales;
 
 //Pide al usuario dos números y muestra la “distancia” entre
 // ellos (el valor absoluto de su

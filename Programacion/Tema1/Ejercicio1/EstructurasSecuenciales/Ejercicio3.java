@@ -1,4 +1,4 @@
-package Tema1.Ejercicio1;
+package Tema1.Ejercicio1.EstructurasSecuenciales;
 
 import java.util.Scanner;
 //Ejercicio 3
