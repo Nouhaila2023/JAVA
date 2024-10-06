@@ -24,8 +24,5 @@ public class Ejercicio3 {
             System.out.println("El numero2 no puede ser 0");
         }
 
-
-
-
     }
 }
