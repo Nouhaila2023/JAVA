@@ -6,10 +6,14 @@ public class Ejercicio18 {
         int a = 10 , b = 3 , c = 1 ,d ,e;
         float x ,y;
         d = a + b++;
+
+        // no puedo comparar un boolean con un entero
+        // ni asignarle el resulta de una opcion logica a un entero
+        // c = a<b && c;
+
         e = ++a-b;
         y = (float)a / b;
         System.out.println("x= " + (x=a/b));
-        System.out.println("c= " + (a<b && a<c));
         System.out.println("d= " + d);
         System.out.println("e= " + e);
         System.out.println("y= " + y);
