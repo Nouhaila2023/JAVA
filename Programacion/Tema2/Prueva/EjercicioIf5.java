@@ -28,14 +28,13 @@ public class EjercicioIf5 {
         int nivel;
 
 
-        System.out.println("Intrega la hora:");
+        System.out.println("Intrega la hora (24):");
         hora = sc.nextInt();
 
-        System.out.println("Intrega el nivel");
+        System.out.println("Intrega el nivel (1--5):");
         nivel = sc.nextInt();
 
         if (nivel == 1 ){
-            System.out.println("Iniciado");
             if (hora >= 6 && hora <= 12){
                 System.out.println("Buenos dias jugador del nevel Iniciado");
             } else if (hora > 12 && hora <= 20){
@@ -44,37 +43,36 @@ public class EjercicioIf5 {
                 System.out.println("buenas noches jugador del nevel Iniciado");
             }
         } else if (nivel == 2 ) {
-            System.out.println("Amateur");
             if (hora >= 6 && hora <= 12){
-                System.out.println("Buenos dias del nevel Amateur");
+                System.out.println("Buenos dias jugador del nevel Amateur");
             } else if (hora > 12 && hora <= 20){
-                System.out.println("Buenas tardes del nevel Amateur");
+                System.out.println("Buenas tardes jugador del nevel Amateur");
             }else {
-                System.out.println("buenas noches del nevel Amateur");
+                System.out.println("buenas noches jugador del nevel Amateur");
             }
         } else if (nivel == 3) {
             if (hora >= 6 && hora <= 12){
-                System.out.println("Buenos dias del nevel Profesional");
+                System.out.println("Buenos dias jugador del nevel Profesional");
             } else if (hora > 12 && hora <= 20){
-                System.out.println("Buenas tardes del nevel Profesional");
+                System.out.println("Buenas tardes jugador del nevel Profesional");
             }else {
-                System.out.println("buenas noches del nevel Profesional");
+                System.out.println("buenas noches jugador del nevel Profesional");
             }
         } else if (nivel == 4) {
             if (hora >= 6 && hora <= 12){
-                System.out.println("Buenos dias del nevel Experto");
+                System.out.println("Buenos dias jugador del nevel Experto");
             } else if (hora > 12 && hora <= 20){
-                System.out.println("Buenas tardes del nevel Experto");
+                System.out.println("Buenas tardes jugador del nevel Experto");
             }else {
-                System.out.println("buenas noches del nevel Experto");
+                System.out.println("buenas noches jugador del nevel Experto");
             }
         } else if (nivel == 5) {
             if (hora >= 6 && hora <= 12){
-                System.out.println("Buenos dias del nevel Dios");
+                System.out.println("Buenos dias jugador del nevel Dios");
             } else if (hora > 12 && hora <= 20){
-                System.out.println("Buenas tardes del nevel Dios");
+                System.out.println("Buenas tardes jugador del nevel Dios");
             }else {
-                System.out.println("buenas noches del nevel Dios");
+                System.out.println("buenas noches jugador del nevel Dios");
             }
         }
 

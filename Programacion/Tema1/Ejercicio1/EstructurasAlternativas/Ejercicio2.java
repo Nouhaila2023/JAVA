@@ -17,6 +17,23 @@ public class Ejercicio2 {
             System.out.println("El numero " + num + " es impar");
         }
 
+
+
+        int num1;
+
+        System.out.println("Ingrese un numero: ");
+        num1 = sc.nextInt();
+
+        if (!(num1 % 2 == 0)) {
+            System.out.println("El numero " + num1 + " es impar");
+        }else {
+            System.out.println("El numero " + num1 + " es par");
+        }
+
+
+
+
+
         sc.close();
 
 

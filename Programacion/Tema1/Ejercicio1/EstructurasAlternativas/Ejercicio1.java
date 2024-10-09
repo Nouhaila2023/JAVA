@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**Algoritmo que pida dos números e indique si el
  primero es mayor que el segundo o no. **/
+
 public class Ejercicio1 {
     public static void main(String[] args) {
 
