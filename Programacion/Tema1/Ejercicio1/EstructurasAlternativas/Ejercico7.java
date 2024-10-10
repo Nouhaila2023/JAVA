@@ -9,7 +9,6 @@ package Tema1.Ejercicio1.EstructurasAlternativas;
     mañana, 15 %, y en turno de tarde, 10 %. Realice un algoritmo para determinar cuánto debe
     pagar por cada concepto una persona que realiza una llamada*/
 
-import javax.xml.transform.Source;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -54,7 +53,7 @@ public class Ejercico7 {
                 }
             }
             if (numeroDia <=6){
-                if (tiempo < 5){
+                if (tiempo <= 5){
                     pago = tiempo * 1 * 0.03 * 0.10;
                     System.out.println(pago);
                 } else if (tiempo >=5 && tiempo <7) {
@@ -76,32 +75,32 @@ public class Ejercico7 {
 
         if (turnoTarde == true){
             if (numeroDia == 7){
-                if (tiempo < 5){
-                    pago = tiempo * 1 * 0.03 * 0.10;
+                if (tiempo <= 5){
+                    pago = tiempo * 1 * 0.10;
                     System.out.println(pago);
                 } else if (tiempo >=5 && tiempo <7) {
-                    pago = tiempo * 0.80 * 0.03 * 0.10;
+                    pago = tiempo * 0.80 * 0.10;
                     System.out.println(pago);
                 }else if (tiempo >= 7 && tiempo <9) {
-                    pago = tiempo * 0.70 * 0.03 * 0.10;
+                    pago = tiempo * 0.70 * 0.10;
                     System.out.println(pago);
                 }else if (tiempo >= 10) {
-                    pago = tiempo * 0.50 * 0.03 * 0.10;
+                    pago = tiempo * 0.50 * 0.10;
                     System.out.println(pago);
                 }
             }
             if (numeroDia <=6){
-                if (tiempo < 5){
-                    pago = tiempo * 1 * 0.03 * 0.10;
+                if (tiempo <= 5){
+                    pago = tiempo * 1 * 0.10;
                     System.out.println(pago);
                 } else if (tiempo >=5 && tiempo <7) {
-                    pago = tiempo * 0.80 * 0.03 * 0.10;
+                    pago = tiempo * 0.80 * 0.10;
                     System.out.println(pago);
                 }else if (tiempo >= 7 && tiempo <9) {
-                    pago = tiempo * 0.70 * 0.03 * 0.10;
+                    pago = tiempo * 0.70 * 0.10;
                     System.out.println(pago);
                 }else if (tiempo >= 10) {
-                    pago = tiempo * 0.50 * 0.03 * 0.10;
+                    pago = tiempo * 0.50 * 0.10;
                     System.out.println(pago);
                 }
             }
@@ -110,7 +109,7 @@ public class Ejercico7 {
 
 
 
-
+        sc.close();
 
     }
 }
