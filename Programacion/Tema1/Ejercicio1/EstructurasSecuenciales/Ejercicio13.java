@@ -31,9 +31,13 @@ public class Ejercicio13 {
 
         //Otra manera facil
 
-        nota_final = (correcta * 5) + (incorrecta * -1) + (blanca * 0);
+        nota_final = (correcta * 5) + (incorrecta * (-1)) + (blanca * 0);
         System.out.println("La nota final es: " + nota_final);
 
+        //Ptra manera del prof
+
+        nota_final = (correcta * 5) - incorrecta;
+        System.out.println("La nota final es: " + nota_final);
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

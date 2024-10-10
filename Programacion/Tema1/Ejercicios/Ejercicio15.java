@@ -24,9 +24,10 @@ public class Ejercicio15 {
 
         retencion = interes * (hacienda/100);
 
+
         //calcular el monto final
 
-        monto_final = (interes - retencion) + precio;
+        monto_final = interes - retencion;
 
         System.out.println("El monto fijo es: " + monto_final + "€");
 
