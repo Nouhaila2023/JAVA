@@ -22,8 +22,13 @@ public class EjemplosStringMetodoa {
         System.out.println("Metodo charAt: " +nombre.charAt(5));
         System.out.println("Metodo charAt: " +nombre.charAt(6));
         System.out.println("Metodo charAt: " +nombre.charAt(7));
+        /*Para poner el ultimo metodo*/
         System.out.println("Metodo charAt(nombre.length()): " + nombre.charAt(nombre.length()-1));
-
+        /*Par poner los tres ultimos metodo*/
+        System.out.println("Metodo substring(3): " + nombre.substring(3));
+        System.out.println("Metodo substring(1,4): " + nombre.substring(1,4));
+        /*Otra forma para tener los dos ultimos caracteres*/
+        System.out.println("Metodo substring(nombre.length()-2): " + nombre.substring(nombre.length()-2));
 
 
 
