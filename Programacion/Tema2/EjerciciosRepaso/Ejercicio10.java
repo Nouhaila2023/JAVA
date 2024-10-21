@@ -14,13 +14,13 @@ public class Ejercicio10 {
     public static String Ganador(int ganada){
         switch (ganada){
             case 1:
-                System.out.println("         1");
+                System.out.println("1");
                 break;
             case 2:
-                System.out.println("            X");
+                System.out.println("X");
                 break;
             case 3:
-                System.out.println("               2");
+                System.out.println("2");
                 break;
             default:
                 System.out.println("");
@@ -34,17 +34,17 @@ public class Ejercicio10 {
 
         int juego = 0;
 
-        System.out.println("Partida  1   X   2" );
-        System.out.println("*********************");
 
-        for (int i = 0; i <= 14; i++) {
+        for (int i = 0; i < 14; i++) {
 
             juego = numero_aleatorio(1,3);
-            System.out.println("* " + (i+1) + ". " +  Ganador(juego) + " *");
+
+            System.out.println((i+1) + ": " + Ganador(juego));
 
         }
 
-        System.out.println("****************************");
+
+
 
     }
 }
