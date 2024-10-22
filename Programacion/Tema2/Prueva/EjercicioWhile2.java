@@ -13,12 +13,12 @@ public class EjercicioWhile2 {
         //Simula lanzar un dado de sies caras, hasta que te sale un 6
         //General un numero aleatorio del 1 a 6
 
-        /*int num;
+        int num;
 
         do {
             num = numero_aleatorio(1,6);
             System.out.println(num);
-        } while (num != 6);*/
+        } while (num != 6);
 
 
         //Simula lanzar un dado de sies caras, hasta que te sale un 6
