@@ -32,6 +32,16 @@ public class CubitusHumerus2 {
             sumaH = tiradaH1 + tiradaH2;
             sumaC = tiradaC1 + tiradaC2;
 
+            if (tiradaC1 == tiradaC2 && tiradaH1 == tiradaH2){
+                System.out.println("Empate");
+            } else if (tiradaC1 == tiradaC2) {
+                System.out.println("Gana Cubitos");
+                contadorC++;
+            }else if (tiradaH1 == tiradaH2)  {
+                System.out.println("Gana Humerus");
+                contadorH++;
+            }
+
             if (sumaC > sumaH){
                 System.out.println(i + ". Ha ganado el Cubitu --> " + sumaC + " > " + sumaH);
                 contadorC++;
