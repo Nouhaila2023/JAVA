@@ -17,49 +17,44 @@ public class CubitusHumerus2 {
         //Juega 20 rondas y dime quién gana
 
 
-        int contadorH = 0;
-        int contadorG = 0;
-
-        int TCubitus1, TCubitus2;
-        int THumerus1, THumerus2;
+       int tiradaH1, tiradaH2 , tiradaC1 ,tiradaC2;
+       int sumaC , sumaH;
+       int contadorH = 0 , contadorC = 0;
 
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 20 ; i++) {
 
-                TCubitus1 = numero_aleatorio(1, 20);
-                THumerus1 = numero_aleatorio(1, 20);
-                TCubitus2 = numero_aleatorio(1, 20);
-                THumerus2 = numero_aleatorio(1, 20);
+            tiradaC1 = numero_aleatorio(1,20);
+            tiradaC2 = numero_aleatorio(1,20);
+            tiradaH1 = numero_aleatorio(1,20);
+            tiradaH2 = numero_aleatorio(1,20);
 
-                System.out.println("La tirada del Cubitus \ndado1: " + TCubitus1 + "  dado2: " + TCubitus2);
-                System.out.println("La tirada del Humerus \ndado1: " + THumerus1 + "  dado2: " + THumerus2);
+            sumaH = tiradaH1 + tiradaH2;
+            sumaC = tiradaC1 + tiradaC2;
 
-                int suma1 = THumerus1 + THumerus2;
-                int suma2 = TCubitus2 + TCubitus1;
+            if (sumaC > sumaH){
+                System.out.println(i + ". Ha ganado el Cubitu --> " + sumaC + " > " + sumaH);
+                contadorC++;
+            } else if (sumaC == sumaH) {
+                System.out.println(i + ". Empate --> " + sumaC + " = " + sumaH);
+            }else {
+                System.out.println(i + ". Ha ganado el Humerus --> " + sumaH + " > " + sumaC);
+                contadorH++;
+            }
 
-                if (suma2 > suma1) {
-                    System.out.println("Gana el Cubitus ");
-                    contadorG++;
-                } else if (suma2 == suma1) {
-                    System.out.println("Empate");
-                } else {
-                    System.out.println("Gana el Humerus ");
-                    contadorH++;
-                }
-
-            System.out.println("-------------------------------------------------------------");
+            System.out.println("------------------------------------------");
 
         }
 
-        System.out.println("Total victorias Cubitus: " + contadorG);
-        System.out.println("Total victorias Humerus: " + contadorH);
 
-        if (contadorG > contadorH) {
-            System.out.println("Gana El Cubitus");
-        } else if (contadorH > contadorG) {
-            System.out.println("Gana El Humerus");
-        } else {
-            System.out.println("La Partida Es Empate");
+        if (contadorC > contadorH){
+            System.out.println("* En 20 tirada ha ganado Cubitus --> " + contadorC + " > " + contadorH + " *");
+        } else if (contadorC == contadorH) {
+            System.out.println("* Empate --> " + contadorC + " = " + contadorH + " *");
+        }else {
+            System.out.println("* En 20 tirada ha ganado Humerus --> " + contadorH + " > " + contadorC + " *");
         }
+
+
     }
 }
