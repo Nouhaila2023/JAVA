@@ -17,5 +17,7 @@ public class Ejercico2 {
             System.out.println("El numero *" + numero + "* No es múltiplo de 2, 3, 5 o 7 ");
         }
 
+        sc.close();
+
     }
 }

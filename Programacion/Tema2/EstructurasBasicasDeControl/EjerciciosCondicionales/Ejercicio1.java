@@ -9,15 +9,20 @@ los tres números. Utilizar esa función para el calcular el mayor de cuatro nú
 public int mayor (int a, int b, int c) { … }
 */
 
-    public static int Mayor(int a, int b, int c){
+    public static int MayorDeTres(int a, int b , int c){
 
         if (a>b && a>c){
             return a;
         } else if (b>a && b>c ) {
             return b;
-        }else {
+        }else
             return c;
-        }
+
+    }
+
+   /* public static int MayorDeCuatro(int a , int b , int c , int d){
+
+        return MayorDeTres(MayorDeTres(a,b), MayorDeTres(c,d));
 
     }
 
@@ -35,13 +40,12 @@ public int mayor (int a, int b, int c) { … }
         int d = sc.nextInt();
 
 
-        int resultado = Mayor(a,b,c);
+        int resultado = MayorDeTres(a,b);
         System.out.println("El mayor numero es: " + resultado);
 
 
-        if (d > Mayor(a,b,c)){
-            System.out.println("El mayor numero es: " + d );
-        }
+        int resulado = MayorDeCuatro(a,b,c,d);
+        System.out.println(resulado);
 
-    }
+    }*/
 }
