@@ -1,4 +1,4 @@
-package Tema2.EstructurasBasicasDeControl;
+package Tema2.EstructurasBasicasDeControl.EjerciciosCondicionales;
 
 import java.util.Scanner;
 
